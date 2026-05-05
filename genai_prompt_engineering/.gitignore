@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+*.env
+.env
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Data (IMPORTANT for ML)
+# =========================
+data/
+datasets/
+*.csv
+*.xlsx
+
+# If you want to keep some datasets, comment the above and use:
+# !data/important_file.csv
+
+# =========================
+# Models & artifacts
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.ckpt
+trained_models/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Mac / Windows
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Mypy
+# =========================
+.mypy_cache/
+
+# =========================
+# Docker
+# =========================
+*.tar
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
